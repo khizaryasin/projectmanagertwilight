@@ -1,0 +1,31 @@
+h1{
+      display: flex;
+  position: absolute;
+  top: 8vh;
+  left: 5vw;
+}
+.list{
+    position: absolute;
+  top: 20vh;
+  left: 3vw;
+}
+p{
+    position: absolute;
+    top: 30vh;
+    left: 5.2vw;
+}
+add{
+    position: absolute;
+    left: 50vw;
+    top: 10vh;
+}
+status{
+    position: absolute;
+  left: 75vw;
+  top: 20vh;
+}
+stat{
+    position: absolute;
+    top: 11vh;
+    left: 78vw;
+}
