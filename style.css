@@ -16,19 +16,20 @@ body {
 .home {
     display: flex;
   position: absolute;
-  margin: 5vh 2.45vw;
+  margin-top: 30px;
   width: 95%;
   height: 300px;
   background-color: #113f67;
-  box-shadow: 2px 2px 3px #000;
+  box-shadow: inset 0px 0px 10px rgb(5, 30, 59);
   border-radius: 45px;
 }
 
 .twilight-container{
-    width: 38%;
+    width: 48%;
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-left: 40px;
 }
 
 .twilight{
@@ -36,6 +37,8 @@ body {
     flex-direction: column;
     align-items: left;
     justify-content:center;
+    width: 38%;
+    margin-left: 50px
 }
 
 h1 {
@@ -47,7 +50,7 @@ h1 {
   display: flex;
   flex-direction: row;
   position: relative;
-right: 20px;
+right: 25px;
 }
 
 .list .button {
@@ -57,13 +60,13 @@ right: 20px;
   height: 38px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #f9f9f9;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .p {
 margin-top: 15px;
-  width: 30vw;
-  font-size: 1vw;
+  width: 350px;
+  font-size: 15px;
   opacity: 0.6;
 }
 
@@ -72,11 +75,11 @@ margin-top: 15px;
   width: 40vh;
   position: absolute;
   top: 23vh;
-  left: 33vw;
+
 }
 
 .add {
-width: 28%;
+width: 36%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,7 +117,7 @@ width: 28%;
 }
 
 .idk{
-    width: 36%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,10 +129,14 @@ width: 28%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 15vw;
-  height: 22vh;
+  width: 180px;
+  height: 100px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.idk {
+  width: 26%;
 }
 
 .hr3 {
@@ -154,7 +161,7 @@ width: 28%;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 858px) {
   .home {
     position: absolute;
     margin: 2.5vh 2.45vw;
